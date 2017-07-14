@@ -1,0 +1,6 @@
+package demo;
+
+public abstract class Wrapper2 implements Sourceable{
+
+	public void method1(){}
+}

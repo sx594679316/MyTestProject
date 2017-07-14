@@ -1,0 +1,25 @@
+package demo;
+
+public class Wrapper implements Targetable {
+
+	private Source source;
+	
+	public Wrapper(Source source){
+		super();
+		this.source = source;
+	}
+	
+	@Override
+	public void method1() {
+		super();
+		this.source = s
+
+	}
+
+	@Override
+	public void method2() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

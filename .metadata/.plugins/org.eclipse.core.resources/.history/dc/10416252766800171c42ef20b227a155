@@ -1,0 +1,5 @@
+package demo;
+
+public class SouceSub2 extends Wrapper2 {
+
+}

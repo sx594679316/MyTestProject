@@ -1,0 +1,10 @@
+package demo;
+
+public class ThirdSingleton {
+
+public static ThirdSingleton instance = null;
+	
+	private ThirdSingleton(){
+		
+	}
+}

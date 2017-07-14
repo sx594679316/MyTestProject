@@ -1,0 +1,6 @@
+package demo;
+
+public class FifthSingleton {
+
+	private static FifthSingleton instance = null;
+}

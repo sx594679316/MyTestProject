@@ -1,0 +1,6 @@
+package demo;
+
+public interface Sender {
+	
+	public void send();
+}

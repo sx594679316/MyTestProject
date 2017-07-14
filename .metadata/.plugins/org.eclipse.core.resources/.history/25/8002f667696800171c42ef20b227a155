@@ -1,0 +1,14 @@
+package demo;
+
+public class FourthSingleton {
+
+	
+	private FourthSingleton(){
+		
+	}
+	
+	private static class SingletonFactory{
+		private static FourthSingleton instance = new FourthSingleton();
+	}
+	
+}

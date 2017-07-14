@@ -1,0 +1,6 @@
+package demo;
+
+public class SingletonTest {
+	
+	private static SingletonTest instance = null;
+}

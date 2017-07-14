@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;BuilderDemo/src/demo&apos;&#x0D;&#x0A;- Original project: &apos;SimpleAbstractFactory&apos;&#x0D;&#x0A;- Destination element: &apos;BuilderDemo/src/demo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     demo.SmsSender.java&#x0D;&#x0A;     demo.Sender.java&#x0D;&#x0A;     demo.MailSender.java" description="Copy compilation units" destination="=BuilderDemo/src&lt;demo" element1="/src&lt;demo{SmsSender.java" element2="/src&lt;demo{Sender.java" element3="/src&lt;demo{MailSender.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500020657978" units="3" version="1.0"/>
+</session>

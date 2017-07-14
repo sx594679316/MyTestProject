@@ -1,0 +1,18 @@
+package demo;
+
+import java.util.Vector;
+
+public class SingletonTest {
+	
+	private static SingletonTest instance = null;
+	
+	private Vector properties = null;
+	
+	public Vector getPorperties(){
+		return properties;
+	}
+	
+	private SingletonTest(){
+		
+	}
+}

@@ -1,0 +1,12 @@
+package demo;
+
+public static class FourthSingleton {
+
+	public static FourthSingleton instance = null;
+	
+	private FourthSingleton(){
+		
+	}
+	
+	
+}

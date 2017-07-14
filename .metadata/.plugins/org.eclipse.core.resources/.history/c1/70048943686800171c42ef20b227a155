@@ -1,0 +1,9 @@
+package demo;
+
+public class Singleton {
+	public static Singleton instance = null;
+	
+	private Singleton(){
+		
+	}
+}

@@ -1,0 +1,26 @@
+package demo;
+
+import net.sf.ehcache.Cache;
+import net.sf.ehcache.CacheManager;
+import net.sf.ehcache.Element;
+
+public class CacheDemo {
+
+	static CacheManager cacheManager = null;
+	static Cache demoCache = null;
+	
+	static {
+		System.out.println("---º”‘ÿ");
+		cacheManager  = CacheManager.create();
+		//ªÚ’ﬂ
+		//cacheManager = CacheManager.getInstance();
+		demoCache = cacheManager.getCache("demoCache");
+	}
+	
+	public static Object getCacheElement(String cacheKey) throws Exception{
+		Element e = demoCache.get(cacheKey);
+		if(e == null){
+			return null;
+		}
+	}
+}

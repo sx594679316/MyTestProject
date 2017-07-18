@@ -1,0 +1,17 @@
+package demo;
+
+import net.sf.ehcache.Cache;
+import net.sf.ehcache.CacheManager;
+
+public class CacheDemo {
+
+	static CacheManager cacheManager = null;
+	static Cache demoCache = null;
+	
+	static {
+		System.out.println("---º”‘ÿ");
+		cacheManager  = CacheManager.create();
+		//ªÚ’ﬂ
+		//cacheManager = CacheManager.getInstance();
+	}
+}

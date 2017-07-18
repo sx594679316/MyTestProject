@@ -1,0 +1,34 @@
+package demo;
+
+import net.sf.ehcache.Cache;
+import net.sf.ehcache.CacheManager;
+import net.sf.ehcache.Element;
+
+public class CacheDemo {
+
+	static CacheManager cacheManager = null;
+	static Cache demoCache = null;
+	
+	static {
+		System.out.println("---加载");
+		cacheManager  = CacheManager.create();
+		//或者
+		//cacheManager = CacheManager.getInstance();
+		demoCache = cacheManager.getCache("demoCache");
+	}
+	
+	/**
+	 * 通过名称从缓存中获取数据
+	 * 
+	 * @param cacheKey
+	 * @return
+	 * @throws Exception
+	 */
+	public static Object getCacheElement(String cacheKey) throws Exception{
+		Element e = demoCache.get(cacheKey);
+		if(e == null){
+			return null;
+		}
+		return e.getObjectValue();
+	}
+}

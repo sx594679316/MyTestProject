@@ -1,0 +1,10 @@
+package demo;
+
+import net.sf.ehcache.management.Cache;
+import net.sf.ehcache.management.CacheManager;
+
+public class CacheDemo {
+
+	static CacheManager cacheManager = null;
+	static Cache demoCache = null;
+}

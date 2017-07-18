@@ -1,0 +1,6 @@
+package demo;
+
+public class CacheDemo {
+
+	static CacheManager cacheManager = null;
+}

@@ -1,0 +1,14 @@
+package demo;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class TestSingleThreadExecutor {
+
+	public static void main(String[] args) {
+		//创建一个可重用固定线程数的线程池
+		ExecutorService pool = Executors.newSingleThreadExecutor();
+
+	}
+
+}

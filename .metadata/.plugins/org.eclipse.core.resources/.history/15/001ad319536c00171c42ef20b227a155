@@ -1,0 +1,28 @@
+package demo;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+public class TestTranslate {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	private static void get(String query){
+		CloseableHttpClient hc = HttpClientBuilder.create().build();
+		HttpGet httpGet = new HttpGet();
+		CloseableHttpResponse response;
+		try {
+			String q = URLEncoder.encode(query,"UTF-8");
+			String from = Lang.
+		} catch (UnsupportedEncodingException e) {
+		}
+	}
+}

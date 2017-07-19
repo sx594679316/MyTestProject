@@ -3,4 +3,10 @@
 <typeInfo handle="=SimpleStaticProxy/C:\/Program Files \(x86)\/Java\/jre6\/lib\/rt.jar&lt;org.omg.PortableInterceptor(USER_EXCEPTION.class[USER_EXCEPTION" modifiers="1537" timestamp="1437013740041"/>
 <typeInfo handle="=SimpleStaticProxy/src&lt;{UserManager.java[UserManager" modifiers="513" timestamp="1499169178223"/>
 <typeInfo handle="=SimpleStaticProxy/C:\/Program Files \(x86)\/Java\/jre6\/lib\/rt.jar&lt;java.lang.reflect(InvocationHandler.class[InvocationHandler" modifiers="1537" timestamp="1437013740041"/>
+<typeInfo handle="=SimpleAbstractFactory/src&lt;demo{Sender.java[Sender" modifiers="513" timestamp="1500017280437"/>
+<typeInfo handle="=SimpleAbstractFactory/src&lt;demo{Provider.java[Provider" modifiers="513" timestamp="1500017439222"/>
+<typeInfo handle="=PrototypeDemo/C:\/Program Files \(x86)\/Java\/jre6\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1437013740041"/>
+<typeInfo handle="=AdapterDemo/src&lt;demo{Source.java[Source" modifiers="1" timestamp="1500022757641"/>
+<typeInfo handle="=AdapterDemo/src&lt;demo{Targetable.java[Targetable" modifiers="513" timestamp="1500022838911"/>
+<typeInfo handle="=AdapterDemo/src&lt;demo{Wrapper2.java[Wrapper2" modifiers="1025" timestamp="1500024113687"/>
 </typeInfoHistroy>
